@@ -14,7 +14,8 @@ list_of_files = [
     "app.py",
     "store_index.py",
     "static/.gitkeep",
-    "templates/chat.html"
+    "templates/chat.html",
+    "test.py"
 
 ]
 
