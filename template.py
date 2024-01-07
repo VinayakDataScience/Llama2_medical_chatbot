@@ -13,12 +13,9 @@ list_of_files = [
     "research/trials.ipynb",
     "app.py",
     "store_index.py",
-    "static/.gitkeep",
+    "static/style.css",
     "templates/chat.html",
-    "test.py"
-
 ]
-
 
 for filepath in list_of_files:
    filepath = Path(filepath)
