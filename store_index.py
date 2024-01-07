@@ -23,7 +23,7 @@ pinecone.init(api_key=PINECONE_API_KEY,
               environment=PINECONE_API_ENV)
 
 
-index_name="healthcare-bot"
+index_name="medical-bot"
 
 #Creating Embeddings for Each of The Text Chunks & storing
-docsearch=Pinecone.from_texts([t.page_content for t in text_chunks], embeddings, index_name=index_name)
+docsearch=Pinecone.from_texts([t.page_content for t in text_chunks], embeddings, index_name=index_name) 
